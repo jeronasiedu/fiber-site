@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         body: ["inter", "sans-serif", "system-ui"],
       },
+      gridTemplateColumns: {
+        responsive: "repeat(auto-fit, minmax(200px, 1fr))",
+      },
     },
   },
   plugins: [],
