@@ -8,7 +8,7 @@
     @apply max-w-5xl px-4 py-6 mx-auto;
   }
   .button-solid {
-    @apply px-4 py-2 text-white rounded bg-primary;
+    @apply px-4 py-2 text-white transition-colors duration-300 rounded bg-primary hover:bg-blue-700 focus:ring focus:outline-none;
   }
 }
 body {

@@ -6,20 +6,27 @@ const Navigation = () => {
   return (
     <>
       <nav className="flex items-center justify-between ">
-        <a href="#" className="p-1 text-lg font-semibold">
+        <a
+          href="#"
+          className="p-1 text-lg font-semibold rounded focus:ring focus:outline-none"
+        >
           Fiber
         </a>
         <ul className="hidden space-x-4 md:flex">
           {links.map((link, index) => (
             <li>
-              <a href="#" className="p-1 hover:underline" key={index}>
+              <a
+                href="#"
+                className="p-1 rounded hover:underline focus:ring focus:outline-none"
+                key={index}
+              >
                 {link}
               </a>
             </li>
           ))}
         </ul>
         <div className="hidden space-x-8 md:block">
-          <button className="p-1 px-4 py-2 font-semibold border rounded border-primary">
+          <button className="p-1 px-4 py-2 font-semibold border rounded border-primary focus:outline-none focus:ring">
             sign in
           </button>
           <button className="button-solid">Sign up</button>

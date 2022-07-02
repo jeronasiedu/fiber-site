@@ -24,7 +24,7 @@ const Hero = () => {
           </button>
           <a
             href="#"
-            className="font-semibold text-center underline text-primary md:text-left "
+            className="font-semibold text-center underline rounded focus:ring focus:outline-none text-primary md:text-left "
           >
             View Examples
           </a>
