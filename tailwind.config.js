@@ -14,6 +14,9 @@ module.exports = {
         responsive: "repeat(auto-fit, minmax(200px, 1fr))",
       },
     },
+    boxShadow: {
+      sidebar: "rgba(0, 0, 0, 0.1) 1.95px 0px 2.2px",
+    },
   },
   plugins: [],
 }

@@ -1,6 +1,3 @@
-import { useState } from "react"
-import logo from "./logo.svg"
-import "./App.css"
 import Navigation from "./components/Navigation"
 import Hero from "./components/Hero"
 import Why from "./components/Why"
