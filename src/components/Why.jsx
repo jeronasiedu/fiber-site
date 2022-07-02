@@ -40,7 +40,7 @@ const Why = () => {
             Create an even impressive portfolio by creating case studies for
             your projects. Simply follow our step-by-step guide.
           </p>
-          <button className="w-full px-3 font-medium bg-white button-solid text-primary md:w-auto">
+          <button className="w-full px-3 font-medium bg-white button-solid hover:bg-slate-200 text-primary md:w-auto">
             Start Free Trial
           </button>
         </div>

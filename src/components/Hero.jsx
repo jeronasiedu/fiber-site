@@ -1,3 +1,4 @@
+import illustration from "/assets/hero-Illustration.png"
 const Hero = () => {
   const stars = Array(5).fill("/assets/star.svg")
   return (
@@ -41,11 +42,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex-1 ">
-        <img
-          src="/assets/hero-illustration.png"
-          alt="hero illustration"
-          className="w-full"
-        />
+        <img src={illustration} alt="hero illustration" className="w-full" />
       </div>
     </div>
   )
